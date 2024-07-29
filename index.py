@@ -13,36 +13,20 @@ init()
 while True: 
   try:
    
-# unscrew text
-   # with open("settings/send.txt","r") as a :
-   #   send =  a.read()
 
-   # with open("settings/baner.txt","r") as b:
-   #  baner =   b.read()
-
+   
    print(Fore.LIGHTCYAN_EX+"""
    
-                         _'
-                        -0+'
-                       '000/
-                      '+0000;
-                     '+D000000;       _________  _______    _      _________
-                    -+0DD000DD;       \__   __/ (  ____ \  ( \     \__   __/
-                   '/:_:++000000+:       ) (    | (    \/  | (        ) (
-                  '/+++/++++++++++;      | |    | (__      | |        | |
-                 '/++++++++++++++++;     | |    |  __)     | |        | |
-                '/+++00000000000000/'    | |    | (        | |        | |
-               'D000SSS0++033388380+'    | |    | (____/\  | (____/\  | |
-             -00SSSS0_''''''/DSSSSSS+,   )_(    (_______/  (_______/  )_(
-            _0SSSS0S+        :SSSSSSSS0,
-            :0SSSSSS/         0SSSSSSS+-
-           /0SSSSSSS/         +SSSSS000/-
-        '/DSSSSSD+/:            -:/+DSSSS0+-
-        '/SS0+:-'                 '-/+0S0:
-        '++:,                        '-/+/
-    .,:++-,:                            0+-00":
-    .*0"'0SS                              D000S0D
-    000S+-                                =+-SSFG 
+
+  _________  _______    _      _________
+  \__   __/ (  ____ \  ( \     \__   __/
+     ) (    | (    \/  | (        ) (
+     | |    | (__      | |        | |
+     | |    |  __)     | |        | |
+     | |    | (        | |        | |
+     | |    | (____/\  | (____/\  | |
+     )_(    (_______/  (_______/  )_(
+
    """)
    
 
@@ -80,7 +64,7 @@ while True:
    options_secondary = print(Fore.LIGHTYELLOW_EX+"[3]"+Fore.LIGHTWHITE_EX+"Overseas Latest"+"\n")
  
 # input
-   
+   print(Fore.LIGHTYELLOW_EX+" ")
    input_one = input("Enter One Options >>>")
    
 #  bets dachas
@@ -132,8 +116,12 @@ http = requests.post("https://www.httpdebugger.com/tools/ViewHttpHeaders.aspx",d
 
 
      print("\n")
-     print(Fore.GREEN+"\t"+"LOGING... ")
-     time.sleep(5)
+     print(Fore.GREEN+"LOGING... ")
+     time.sleep(2.5)
+     
+     
+     print(Fore.GREEN+"The file was created :) ")
+     time.sleep(2)
      os.system("cls")
 
 
